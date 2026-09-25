@@ -23,7 +23,7 @@ public class Program2 {
     System.out.println("=== TEST 2 : Department findAll ===");
     List <Department> list = departmentDao.findAll();
     for (Department d : list){
-        System.out.println(d);
+        System.out.println(d); 
     }
     
     System.out.println("=== TEST 4 : Department INSERT");
